@@ -5,4 +5,4 @@ function sum (a, b)  {
     return c;
 }
 
-module.exports = sum;   
+export default sum;   
