@@ -3,6 +3,11 @@
   node_js:
       - "20"
 
+  branches:
+    only:
+      - main
+      - cicdsetup
+
   cache:
     npm: true
 
