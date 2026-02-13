@@ -1,20 +1,9 @@
-
 language: node_js
-
 node_js:
-  - "20"
+  - "18"
 
-branches:
-  only:
-    - main
-    - cicdsetup
+install:
+  - npm install
 
-cache:
-  npm: true
-
-# Run tests and linting
-# Travis CI will automatically run `npm test` if it finds a test script in package.json, but we can specify our own commands here
-  
 script:
-  - npm ci
   - npm run lint
