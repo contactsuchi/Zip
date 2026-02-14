@@ -13,12 +13,12 @@ function subtract(a, b) {
     return b-a;
 }
 
-//function square(x) {
-//  return x*x;
-//}
-
+function square(x) {
+  return x*x;
+}
 
 module.exports = {
     sum, 
-    multiply
+    multiply,
+    square
 };
